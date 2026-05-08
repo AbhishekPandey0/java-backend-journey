@@ -56,5 +56,7 @@ public class conditionalStatements {
     int salary = 12;
     String result = (salary >= 10) ? "Target met" : "Not yet";
     System.out.println(result);
+
+    s.close();
   }
 }

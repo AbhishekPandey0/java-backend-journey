@@ -17,5 +17,7 @@ public class learningScanner {
     String name = s.next();
     System.out.println("My name is " + name);
 
+    s.close();
+
   }
 }
